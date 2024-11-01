@@ -20,6 +20,14 @@ Section 1. Window
     Confirm – display a modal dialog with a question.
     Prompt – prompt the user to input some text.
     setTimeout – set a timer and execute a callback function once the timer expires.
+        تأخذ معاملين أساسيين 
+        1- الدالة التي ترغب في تنفيذها بعد إنتهاء الوقت 
+        2- المدة الزمنية التي تريد تأخير النفيذ خلالها وتكون بالملي ثانية 
+        Example:
+        setTimeout(function(){
+            console.log("This msg will appear after 2 seconds !")
+        }, 2000);
+
     setInterval – execute a callback function repeatedly with a fixed delay between each call.
 */
 
